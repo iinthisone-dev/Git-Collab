@@ -1,0 +1,2 @@
+The first two merges our team did were fast-forward merges because we made only updates and changes on the new branches (neat_branch & messy_branch) and not on main before merging over. 
+Had we made additional updates and changes on main as well, then we would have to perform three-way merges.
