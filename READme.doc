@@ -1,2 +1,17 @@
-The first two merges our team did were fast-forward merges because we made only updates and changes on the new branches (neat_branch & messy_branch) and not on main before merging over. 
-Had we made additional updates and changes on main as well, then we would have to perform three-way merges.
+Task 1: Fast-Forward Merge
+The first two merges our team did were fast-forward merges because we made only updates and changes on the new branches (neat_branch & 
+messy_branch) and not on main before merging over. Had we made additional updates and changes on main as well, then we would have to perform 
+three-way merges.
+
+
+
+Task 2: Conflicts
+One scenario our group tested out that would have a conflict between two branches, develop and mb3 (messy branch 3), is when the title on the 
+index.html file is changed to different things and commited on both branches. Because these changes happened on the same line of code in the 
+same file, a conflict arose when we tried to merge. Using the VS code interface I manually resolved this error by selecting which version of 
+the file I wanted - the title “im develop” from the develop branch version - and committing this change.
+ 
+A scenario we tested that would not resolve in a conflict is when the body text is updated on the develop branch while the title is updated on 
+the conflict_branch2. Becasue these changed took place on different lines of code (even if they’re within the same index.html file), Git accepts 
+both changes and is able to merge the versions without conflict. 
+
