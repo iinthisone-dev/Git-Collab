@@ -15,4 +15,4 @@ A scenario we tested that would not resolve in a conflict is when the body text 
 the conflict_branch2. Becasue these changed took place on different lines of code (even if they’re within the same index.html file), Git accepts 
 both changes and is able to merge the versions without conflict. 
 
-![Git Branch Image](./Picture/Screenshot 2025-10-20 at 10.51.16 PM.png)
+![Git Branch Image](./Picture/gitgraph.png)
